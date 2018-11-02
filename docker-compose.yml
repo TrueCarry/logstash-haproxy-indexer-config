@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  filebeats_cpmfog:
+    image: pile.mdk.zone/mdkbackend/logstash_indexer_config
+    build: .
